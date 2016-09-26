@@ -53,3 +53,6 @@ CRITICAL THING TO KNOW !!!
 mimicInput(['#test'],['80'], ['none'],0);  <==== the last variable in the function arguments "0" must be left as it is changing this will break the functionality
 </p>
 
+<p>EFFECTS AVAILABLE :<br/><br/>
+fade ,bounce ,fold ,highlight ,puff ,pulsate ,scale ,shake ,slide ,blind ,explode ,drop-up ,drop-down ,drop-both ,zoom ,spin
+</p>
