@@ -25,6 +25,31 @@ in your head tag or where you have all of your javascript links written on you p
 
 </p>
 
+Now for the last part just add this :
+
+<p>
+$(window).bind("load", function() {
+<br/><br/>
+mimicInput(['#test'],['80'], ['none'],0);
+<br/><br/>
+});
+</p>
+
+To do :
+
+<p>1. replace ['#test'] to your div's id or class (IT IS VERY IMPORTANT THAT YOU ADD #class or #id ). You can add as many elements as you want till it looks something like this : ['#test','#test2','.test3'].</p>
+<p>2. replace ['80'] to your desired no. of milliseconds this represents the speed interval . in case you have EX :['#test','#test2','.test3'] be sure to add ['22','22','22'] (each element added needs to have it's own interval).</p>
+<p>3. replace ['none'] with your desired effect . Once again if you have more that 1 element in the ['#test'] array make sure to add an animation to each of the elements something like ['none','none','none'] </p>
+
+<p> TO CLEAR THINGS OUT I WILL SHOW YOU 2 WAYS OF USAGE <br /><br />
+1. single element : mimicInput(['#test'],['80'], ['none'],0);<br />
+2. multiple elements : mimicInput([ '#test','#test1', '#test2'],['80', '80', '80'], [ 'none','fade', 'bounce'],0);
+</p>
 
 
+CRITICAL THING TO KNOW !!!
+
+<p style="color:red;">
+mimicInput(['#test'],['80'], ['none'],0);  <==== the last variable in the function arguments "0" must be left as it is changing this will break the functionality
+</p>
 
