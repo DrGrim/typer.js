@@ -56,3 +56,5 @@ mimicInput(['#test'],['80'], ['none'],0);  <==== the last variable in the functi
 <p>EFFECTS AVAILABLE :<br/><br/>
 fade ,bounce ,fold ,highlight ,puff ,pulsate ,scale ,shake ,slide ,blind ,explode ,drop-up ,drop-down ,drop-both ,zoom ,spin
 </p>
+
+In case you don't understand something please check the untitled.html file to see how things are written. Thanks and enjoy
