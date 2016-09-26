@@ -45,10 +45,10 @@ function mimicInput(elem,speed,effect,start){
 	
 	$(selectedElement).css('display','block')
 	
-	var inputText = $(selectedElement).html() || "";
+	var inputText = $(selectedElement).text() || ""; //<======== change  .text() to .html() to get html content but this will not work as well.
 	
 	if(inputText.indexOf('<br>') > -1){
-	var inputText_default = inputText.replace(/<br>/g, '/');
+	var inputText_default = inputText
 	}else{
 	var inputText_default = inputText;
 	}
@@ -70,12 +70,12 @@ function mimicInput(elem,speed,effect,start){
 				
 			if(parseInt(CharIteration) < inputText_default.length +1)	{
 				
-            if(inputText_default[CharIteration] == '/' )
+            /*if(inputText_default[CharIteration] == '/' )
 			{
 				NewChar  =  '</br>';
 			}
 			else
-			{   
+			{   */
 			     if(ApplyEffect != 'none'){
 					   if(inputText_default[CharIteration  - 1] == " "){
 		     	           NewChar =  '<div id="'+CharIteration+'" style="display:none;width:auto;float:left;" class="typer-affected">&nbsp;'+inputText_default[CharIteration]+'</div>';
@@ -88,7 +88,7 @@ function mimicInput(elem,speed,effect,start){
 					 NewChar =  inputText_default[CharIteration];
 				 }
 				
-			}
+			//}
 			if(ApplyEffect != 'none'){
 			$(selectedElement).append(NewChar.replace('undefined',''));
 			}else{
