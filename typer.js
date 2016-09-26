@@ -205,7 +205,7 @@ function mimicInput(elem,speed,effect,start){
 				
 				$( ".typer-affected" ).each(function( index ) {
 				   var content = $(this).html();
-				  $(this).replaceWith(content);
+				  $(this).replaceWith(content).replace('&nbsp;',' ');
 				});
 				
 				}, 1000);
