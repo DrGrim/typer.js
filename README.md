@@ -20,8 +20,8 @@ in your head tag or where you have all of your javascript links written on you p
 <p>
 
 
-&lt;script src="https://code.jquery.com/jquery-1.12.3.min.js" type="text/javascript"&gt;&lt;/script&gt; 
-<br/>&lt;script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"&gt;&lt;/script&gt;
+&lt;script src="https://code.jquery.com/jquery-1.12.3.min.js" type="text/javascript"&gt; &lt;/script&gt; 
+<br/>&lt;script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"&gt; &lt;/script&gt;
 
 </p>
 
