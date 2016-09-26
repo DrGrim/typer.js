@@ -15,4 +15,4 @@ The bold text contains the <code>"< strong >"tag and if you are to apply the scr
 THE ONLY SUPPORTED HTML TAG IS < br /> !! if your text contains line breaking tags it will be ok .
 
 
-<iframe></iframe>
+<iframe src="https://github.com/DrGrim/typer.js/blob/master/Untitled-2.html"></iframe>
