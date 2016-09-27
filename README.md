@@ -1,5 +1,5 @@
 # typer.js
-Emulates manual typing with the possibility to add effects 
+Simulates manual typing with the possibility to add effects 
 
 NOTE !!! it will only work with text if you are applying the script to html content it will print out the content as text instead of html 
 
